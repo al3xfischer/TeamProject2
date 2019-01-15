@@ -8,11 +8,12 @@ namespace Shared
 
         ICollection<IPin> Outputs { get; }
 
-        void Execute();
-        void Activate();
-
         string Label { get; }
 
         string Description { get; }
+
+        NodeType Type { get; }
+
+        void Execute();
     }
 }
