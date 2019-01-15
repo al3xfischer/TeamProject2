@@ -10,6 +10,7 @@ namespace Shared
     {
         Logic,
         Display,
-        Source
+        Source,
+        Switch
     }
 }
