@@ -15,5 +15,7 @@ namespace Shared
         NodeType Type { get; }
 
         void Execute();
+        
+        void Activate();
     }
 }
